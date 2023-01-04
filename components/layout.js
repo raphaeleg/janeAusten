@@ -5,8 +5,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import React, { useState } from 'react';
 
-export default function Template({ allPostsData, postContent }) {
-	const [currentPostID, setCurrentPostID] = useState(0);
+export default function Template( { allPostsData, postContent } ) {
+	const [currentPostID, setCurrentPostID] = useState( 0 );
 	return (
 		<div className='container'>
 			<Head>
@@ -35,16 +35,16 @@ export default function Template({ allPostsData, postContent }) {
 						</li>
 						<ul
 							className={`${utilStyles.list} ${styles.rowStyle} ${styles.inactivePortraitsList}`}>
-							{allPostsData.map(({ id, image, title }, index) =>
+							{allPostsData.map( ( { id, image, imagecover, title }, index ) =>
 								id != allPostsData[currentPostID].id ? (
 									<li
 										key={id}
 										onClick={() => {
-											setCurrentPostID(index);
-											document.getElementById('articleContent').scrollTop = 0;
+											setCurrentPostID( index );
+											document.getElementById( 'articleContent' ).scrollTop = 0;
 										}}
 										className={`${utilStyles.listItem}`}
-										style={{ backgroundImage: `url(${image})` }}>
+										style={{ backgroundImage: `url(${imagecover != null ? ( imagecover ) : ( image )})` }}>
 										<h3>{title}</h3>
 									</li>
 								) : null
@@ -61,6 +61,7 @@ export default function Template({ allPostsData, postContent }) {
 						<div className='articleNav'></div>
 					</div>
 					<div id='articleContent' className={styles.postContentContainer}>
+
 						<div
 							dangerouslySetInnerHTML={{
 								__html: postContent[currentPostID].contentHtml,

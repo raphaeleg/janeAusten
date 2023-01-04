@@ -11,10 +11,17 @@ body {
     background-repeat: repeat;
     background-position: center;
     width: 110vw;
-        height: 110vh;
+    height: 110vh;
     position: fixed;
     top: 0;
     z-index: -100;
+}
+
+@font-face {
+    font-family: "Quentin";
+    src: url("/styles/Quentin.otf")format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -37,7 +44,7 @@ body {
     font-family: "Butler", Times, serif;
 }
 
-p{
+p {
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -92,17 +99,22 @@ img {
 }
 
 .navBarLinks {
-    border: 75px solid rgb(222, 184, 135); /* All borders set */
-    border-top: 1; /* Remove left border */
-    border-bottom: 20px solid transparent; /* Right transparent */
-    height: auto; /* Increase element Width */
-    width: 0; /* word-wrap: break-word; */
+    border: 75px solid rgb(222, 184, 135);
+    /* All borders set */
+    border-top: 1;
+    /* Remove left border */
+    border-bottom: 20px solid transparent;
+    /* Right transparent */
+    height: auto;
+    /* Increase element Width */
+    width: 0;
+    /* word-wrap: break-word; */
     color: #050202;
     z-index: 1;
     transform: translateY(-75px);
     transition: 0.1s linear;
     -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
-        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
 
 .nav_item {
@@ -112,6 +124,7 @@ img {
     width: 150px;
     margin-left: -75px;
 }
+
 .navBarLinks:hover {
     border-color: #050202;
     border-top: 1;
@@ -120,10 +133,11 @@ img {
 }
 
 .navBarLinksActive,
-.navBarLinks:hover{
+.navBarLinks:hover {
     color: white;
 }
-.navBarLinksActive  {
+
+.navBarLinksActive {
     border-color: #050202;
     border-top: 1;
     border-bottom: 20px solid transparent;
@@ -131,23 +145,28 @@ img {
 }
 
 @media (max-width: 600px) {
-    .navBarLinks{
+    .navBarLinks {
         border: 50px solid rgb(222, 184, 135);
         border-top: 1;
         border-bottom: 20px solid transparent;
         transform: translateY(-50px);
     }
+
     .nav_item {
         width: 100px;
         margin-left: -50px;
     }
-    .navBarLinks:hover{
+
+    .navBarLinks:hover {
         transform: translateY(-45px);
     }
+
     .navBarLinksActive {
         transform: translateY(-30px);
     }
-    .navBarLinks:hover,.navBarLinksActive{
+
+    .navBarLinks:hover,
+    .navBarLinksActive {
         border-color: #050202;
         border-top: 1;
         border-bottom: 20px solid transparent;

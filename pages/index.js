@@ -40,6 +40,13 @@ export default function Home() {
 					</p>
 
 					<div className={styles.grid}>
+						<Link href='/works'>
+							<div className={`${styles.card} ${styles.card4}`}>
+								<h3>Jane Austen's Works</h3>
+
+								<span></span>
+							</div>
+						</Link>
 						<Link href='/people'>
 							<div className={`${styles.card} ${styles.card1}`}>
 								<h3>Beautiful People</h3>
