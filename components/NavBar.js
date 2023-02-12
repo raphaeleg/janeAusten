@@ -27,11 +27,11 @@ function NavigationLink( { href, text, router } ) {
 	const isActive = router.asPath === ( href === '/home' ? '/' : href );
 	return (
 		<Link href={href === '/home' ? '/' : href}>
-			<div className={`${isActive && 'navBarLinksActive'} navBarLinks`}>
+			<a className={`${isActive && 'navBarLinksActive'} navBarLinks`}>
 				<div className={`${isActive && 'nav_item_active'} nav_item`}>
 					{text}
 				</div>
-			</div>
+			</a>
 		</Link>
 	);
 }

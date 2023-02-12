@@ -21,32 +21,32 @@
     margin: 10px 25px;
     min-width: 200px;
     width: 300px;
-    height: 27vh;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1vw;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
 }
 
 .allPortraitsList li p {
     color: black;
     text-align: center;
-    margin-top: 320px;
+    margin-top: 420px;
 }
 
 .inactivePortraitsList {
     overflow-x: visible;
     overflow-y: scroll;
     mask-image: linear-gradient(to left, transparent 0%, black 50px, black calc(100% - 50px), transparent 100%);
-    height: 40vh;
     width: 100%;
     height: 22vh;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    cursor: grab;
 }
 
 .inactivePortraitsList::-webkit-scrollbar {
@@ -80,15 +80,15 @@
 /* ~~~~~~ CONTENT ~~~~~~ */
 
 .allContent {
-    margin: 10px 10px;
-    max-height: 62vh;
+    padding: 10px 10px;
+    /* max-height: 62vh; */
     scrollbar-width: thin;
     flex-direction: column;
 }
 
 .postMetaData {
     /* background-color: gold; */
-    margin: 40px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -96,18 +96,12 @@
 }
 
 .postMetaData h1 {
-    margin-bottom: -1rem;
-    margin-top: 1.5rem;
+    padding-bottom: -1rem;
+    padding-top: 1.5rem;
 }
 
 .postContentContainer {
-    margin-left: 25px;
-    /* background-color: orange; */
-    overflow: scroll;
-    max-height: 62vh;
-    overflow: visible;
-    margin: 0 40px;
-    padding: 0 5vw;
+    padding: 0 15vw;
 }
 
 .postContentContainer p {
@@ -127,6 +121,7 @@
     height: 50vh;
     width: 50vw;
     align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 .fig-align-right {
@@ -144,7 +139,7 @@
 }
 
 .postContentContainer img {
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .postContentContainer figcaption {
@@ -152,10 +147,28 @@
     caption-side: bottom;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+    .inactivePortraitsList {
+        height: 25vh;
+    }
+
+    .inactivePortraitsList li {
+        height: 22vh;
+    }
+
+    .postMetaData,
+    .postContentContainer {
+        padding: 0px 10vw;
+    }
+
     .postContentContainer figure {
-        margin: 1em 40px;
+        margin: 1em 0px;
         float: inline-start;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
     }
 }
 
@@ -186,4 +199,12 @@
 
 .postContentContainer blockquote::after {
     content: '';
+}
+
+@media (max-width: 1024px) {
+    .postContentContainer blockquote {
+        padding: 1.2em 30px;
+        max-width: 100%;
+    }
+
 }
