@@ -1,21 +1,44 @@
 ---
 title: 'Royal Worcester'
-image: '/images/RW/logo.png'
+imagecover: '/images/RW/logo.png'
+image: '/images/RW/2010ED6908.jpg'
 imagecap: ''
 lifespan: ''
+citation:
+  [
+    'The Worcester Porcelain Museum. “Dr.Wall and the First Worcester Factory 1751 - 1783.” <i>The Worcester Porcelain Museum</i>, 28 Sept. 2011, <a target="_blank" rel="noopener noreferrer" href="https://web.archive.org/web/20110928012108/www.worcesterporcelainmuseum.org.uk/uploaded/documents/9-Dr-Wall-and-the-first-factory.pdf">web.archive.org/web/20110928012108/www.worcesterporcelainmuseum.org.uk/uploaded/documents/9-Dr-Wall-and-the-first-factory.pdf</a>. Accessed 28 Sept. 2011.',
+    'Jervis, William Percival. <i>A Pottery Primer</i>. New York : the O’Gorman Publishing Co., 1911, pp. 104–108.',
+    'Museum of Royal Worcester. “Chamberlain.” <i>Museum of Royal Worcester</i>, 8 Dec. 2021, <a target="_blank" rel="noopener noreferrer" href="https://www.museumofroyalworcester.org/discover-learn/research/factories/chamberlain/">www.museumofroyalworcester.org/discover-learn/research/factories/chamberlain/</a>. Accessed 13 Mar. 2023.',
+    'Encyclopædia Britannica. “Pottery - Scandinavia.” <i>Encyclopædia Britannica</i>, 2023, <a target="_blank" rel="noopener noreferrer" href="https://www.britannica.com/art/pottery/Scandinavia">www.britannica.com/art/pottery/Scandinavia</a>. Accessed 13 Mar. 2023.',
+    'Museum of Royal Worcester. “Blush Ivory.” <i>Museum of Royal Worcester</i>, 3 Apr. 2020, <a target="_blank" rel="noopener noreferrer" href="https://www.museumofroyalworcester.org/discover-learn/research/products/blush-ivory/">www.museumofroyalworcester.org/discover-learn/research/products/blush-ivory/</a>. Accessed 13 Mar. 2023.',
+  ]
+bib: []
 ---
 
 <!-- @format -->
 
-Royal Worcester was established in Worcester at 1751, and being one of the oldest remaining English porcelain manufacturer. It was established by chemist Dr. John Wall, apothecary William Davis, and their prior experiments in making a porcelain-like substance (source) using soaprock (source). Their production was held in such secrecy that anyone who disclosed the workings had to pay £4000 (source).
+One of the oldest English porcelain manufacturers still in operation, Royal Worcester was founded in Worcester in 1751. It was discovered thanks to the work of chemist Dr. John Wall and pharmacist William Davis, who used soaprock<sup>2</sup> in earlier experiments to create a substance that resembled porcelain. <sup>1</sup> Their creation was kept secret to the point where anyone who revealed how it was done would have to pay £4000. <sup>1</sup>
+
+<figure className="fig-align-left">
+  <img src="/images/RW/2010CT5245.jpg" />
+  <figcaption></figcaption>
+</figure>
+
 ## Craftsmanship specialty
-They continued experimenting by attempting to replicate the blue and white Nankin patterns of a simple character (source). Around 1755, there was a breakthrough, as Worcester was producing blue and white porcelain teawares, which was sturdy enough to hold boiling water, and affordable for the middle class (source). For the rest of the 18th century, Worcester continued to improve it’s a craft, through transfer printing and engravings, and imitating popular aesthetics such as Rococo and Oriental, Meissen, Underglaze blue backgrounds, Japanese Imari, and more (source).
+
+They experimented some more, trying to imitate a simple character's blue and white Nankin patterns.<sup>2</sup> A breakthrough occurred around 1755 when Worcester started making blue and white porcelain teapots that were both affordable for the middle class and sturdy enough to hold boiling water. <sup>1</sup> Worcester kept honing its craft throughout the rest of the 18th century by using transfer printing, engraving, and copying well-known styles like Rococo and Oriental, Meissen, Underglaze blue backgrounds, Japanese Imari, and more. <sup>1</sup>
+
+<figure className="fig-align-right">
+  <img src="/images/RW/2010ED3432.jpg" />
+  <figcaption></figcaption>
+</figure>
 
 ## Financial Decline
-In 1776, Dr Walls passed away, which initiated the coming extinction of Worcester productions (source). Despite this, it received a royal warrant from George III as "Royal Porcelain Works". Meanwhile, Robert Chamberlain, the first apprentice in Worcester, started his own business Chamberlain's Factory in continuing the Worcester traditions, which was quite successful, even receiving its own royal warrant from the Rince Regent in 1811 (source). 
-One of Chamberlains' popular works was his decorative pieces of country houses and figure subjects from famous paintings or plays, such as scenes from Shakespeare's plays (source). Another one of Chamberlains' popular works was decorating porcelain in debased Japanese style (source). 
-During the 1840s, the original Worcester company merged with Chamberlain's Factory to become Chamberlain & Company. Their productions were focused on buttons, porcelain door furniture, and medieval encaustic floor tiles for renovated churches (source). 
-  
+
+Dr. Walls' death in 1776 marked the beginning of the end for Worcester productions. <sup>2</sup> Despite this, George III granted the "Royal Porcelain Works" a royal warrant. The first apprentice in Worcester, Robert Chamberlain, started his own company, Chamberlain's Factory, to carry on Worcester's traditions. This venture was quite successful, and in 1811, the Prince Regent granted it a royal warrant. <sup>3</sup>
+Chamberlains' decorative depictions of country homes and people from well-known paintings or plays, such as scenes from Shakespeare's plays <sup>3</sup> or debased Japanese style were among his best-known creations. <sup>4</sup>
+The original Worcester company and Chamberlain's Factory eventually merged to form Chamberlain & Company in the 1840s. They specialized in producing buttons, porcelain door decor, and old-world encaustic floor tiles for churches that were being renovated. <sup>3</sup>
+
 ## Blush Ivory Porcelain
-Inspired by the Art Nouveau style in the 1890s, Royal Worcester developed porcelain with organic forms, such as shell dishes and baskets, and natural materials, such as coral-handled jugs (source). This was extremely popular, to the extent of imitations being sold, pressuring Royal Worcester out of the market (source). 
-https://www.bidsquare.com/online-auctions/broward/19c-royal-worcester-ewer-pitcher-jug-1050502 
+
+In the 1890s, Royal Worcester created porcelain with organic shapes like shell dishes and baskets and natural materials like coral-handled jugs, which were influenced by the Art Nouveau movement. <sup>5</sup> This was so well-liked that imitations of it were sold, forcing Royal Worcester off the market. <sup>2</sup>

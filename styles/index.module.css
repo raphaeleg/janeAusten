@@ -9,6 +9,7 @@
     letter-spacing: 0.1vw;
     transform: scale(0.9, 1);
     width: 50vw;
+    text-shadow: 0 0 15px rgba(63, 56, 49, 0.5);
 }
 
 .titledesc {
@@ -18,6 +19,7 @@
     line-height: 1.5;
     font-size: 3rem;
     font-family: AlexBrush-Regular;
+    text-shadow: 0 0 5px rgba(63, 56, 49, 0.5);
 }
 
 .image {

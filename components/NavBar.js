@@ -1,37 +1,57 @@
 /** @format */
 
 import { useRouter } from 'next/router';
-import Link from 'next/link';
+import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import { useGlobalContext } from './GlobalContext';
 
-const navigationRoutes = ['home', 'works', 'people', 'fashion', 'homeware'];
-
-export default function Navbar() {
-	const router = useRouter();
+export const NavItem = ( { text, href, active } ) => {
 	return (
-		<nav className='nav_container'>
-			{navigationRoutes.map( ( singleRoute ) => {
-				return (
-					<NavigationLink
-						key={singleRoute}
-						href={`/${singleRoute}`}
-						text={singleRoute === 'people' ? 'beautiful people' : singleRoute}
-						router={router}
-					/>
-				);
-			} )}
-		</nav>
-	);
-}
-
-function NavigationLink( { href, text, router } ) {
-	const isActive = router.asPath === ( href === '/home' ? '/' : href );
-	return (
-		<Link href={href === '/home' ? '/' : href}>
-			<a className={`${isActive && 'navBarLinksActive'} navBarLinks`}>
-				<div className={`${isActive && 'nav_item_active'} nav_item`}>
-					{text}
-				</div>
+		<Link href={href == '/home' ? '/' : href}>
+			<a
+				className={`nav__item ${active ? "active" : ""}`}
+			>
+				{text}
 			</a>
 		</Link>
 	);
-}
+};
+
+
+const NavBar = () => {
+	const { navActive, setNavActive, activeIdx, setActiveIdx, navigationRoutes } = useGlobalContext();
+	const router = useRouter();
+
+	return (
+		<header>
+			<nav className={`nav`}>
+				<div
+					onClick={() => setNavActive( !navActive )}
+					className={`nav__menu-bar`}
+				>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div className={`${navActive ? "active" : ""} nav__menu-list`}>
+					{navigationRoutes.map( ( singleRoute, id ) => (
+						<div
+							onClick={() => {
+								setActiveIdx( id );
+								setNavActive( false );
+							}}
+							key={singleRoute}
+						>
+							<NavItem active={activeIdx === id} text={singleRoute === 'people' ? 'beautiful people' : singleRoute} href={`/${singleRoute}`} />
+						</div>
+					) )}
+				</div>
+			</nav>
+			<div class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			</div>
+		</header>
+	);
+};
+
+export default NavBar;

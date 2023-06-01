@@ -1,29 +1,40 @@
 ---
 title: 'Royal Crown Derby'
-image: '/images/RCD/logo.png'
-imagecover: '/images/RCD/ImariC.jpg'
-imagecap: ''
+image: '/images/RCD/marks.jpg'
+imagecover: '/images/RCD/logo.png'
+imagecap: 'Royal Crown Derby Marks'
 lifespan: ''
+citation:
+  [
+    'Royal Crown Derby. “Our Heritage.” <i>Royal Crown Derby</i>, 28 June 2022, <a target="_blank" rel="noopener noreferrer" href="https://www.royalcrownderby.co.uk/royal-crown-derby-heritage/">www.royalcrownderby.co.uk/royal-crown-derby-heritage/</a>.',
+    'Armitage, Jill. <i>Derby a History</i>. Amberley Publishing Limited, 15 Aug. 2014.',
+    'Britannica. “Pottery - Scandinavia.” <i>Encyclopædia Britannica</i>, 2023, <a target="_blank" rel="noopener noreferrer" href="https://www.britannica.com/art/pottery/Scandinavia#ref600265">www.britannica.com/art/pottery/Scandinavia#ref600265</a>. Accessed 6 Mar. 2023.',
+  ]
+bib: []
 ---
 
 <!-- @format -->
 
-Established in 1750, Royal Crown Derby is one of the oldest remaining English porcelain manufacturers famous for its prestigious tableware. Although the company received initial success as a principal tableware company in the 18th century, it suffered with constant business takeovers (source). Nevertheless the Derby traditions of fine craftsmanship was maintained, where no two pieces were the same. In the 18th century, many of the painters hired in the company specialised in landscapes and seascapes, still lifes, pastorals, birds, and intricate floral patterns.
-<figure class="fig-align-right">
+The Royal Crown Derby Porcelain Company, one of the oldest still operating English porcelain producers, was founded in Derby in 1750 and is well known for its prestigious tableware. Despite the company's early success as a leading dinnerware manufacturer in the 18th century, it suffered from frequent corporate takeovers.<sup>1</sup> Nevertheless, the Derby traditions of high-quality craftsmanship, where no two pieces were the same, were upheld. Many of the painters that the company employed in the 18th century had specialities in landscapes and seascapes, still lifes, pastorals, birds, and intricate floral patterns.
+
+<figure className="fig-align-right">
   <img src="/images/RCD/ImariC.jpg" />
   <figcaption>Imari Pattern wares</figcaption>
+</figure>
+<figure className="fig-align-right">
+  <img src="/images/RCD/cam.png" />
+  <figcaption>Campagna vase featuring landscape</figcaption>
 </figure>
 
 ## Aesthetics
 
+Because the styles of Royal Crown Derby products consistently matched the vogue of the time, they were in high demand. Their wares began to feature extravagant Japanese Imari patterns in the early 19th century that were bolder, with brighter colours, larger shapes, and geometric patterns.<sup>1</sup> When they made ornamental pieces like service plates and vases that were gilded and jewelled in the late Victorian era, their designs grew more opulent. <sup>1</sup> Beyond their typical styles, The Derby innovated and expanded themselves by incorporating raised gilding, piercing, and Perisian and Indian motifs. <sup>2</sup> However, Derby's tradition of producing beautiful paintings of landscapes and flowers persisted. Their Campaa (or Campagna) vases, which were modelled after Greek kraters and included landscape decorations, are an illustration of this. <sup>3</sup>
 
-Royal Crown Derby was always in demand, as their product’s designs always met the popular aesthetic of the period. Around the early 19th century, their products adopted lavish Japanese Imari patterns that were bolder, with brighter colors, larger shapes, and geometric patterns (source). By the late Victorian era, their designs became more lavish, as they produced service plates, vases, and ornamental pieces which were adorned with gilding and jewelling (source). The Derby innovated and diversified themselves beyond their traditional styles, including raised gilding, piercing, and Perisian and Indian patterns (source). However, Derby’s tradition of fine painting flowers and landscapes continued. An example of this is their Campaña (or Campagna) vases, which were inspired by Greek kraters, were decorated with landscapes (source).
-
-<figure class="fig-align-left">
+<figure className="fig-align-left">
   <img src="/images/RCD/marks.jpg" />
   <figcaption>Royal Crown Derby Marks</figcaption>
 </figure>
 
 ## Royal Recognition
 
-Being a prestigious tableware brand, the Derby was highly recognised in the royal community. In 1773 King George III permitted the Derby to incorporate the royal crown into their backstamp, and by 1890, the Derby received the royal warrant, becoming the "Manufacturers of porcelain to Her Majesty" and "The Royal Crown Derby Porcelain Company" (source).
+The Derby was becoming a more well-known tableware brand in the royal community because of its prestige. King George III had given the Derby permission to use the royal crown as their rear mark in 1773, following a grant to a royal warrant in 1890, becoming the "Manufacturers of porcelain to Her Majesty" and "The Royal Crown Derby Porcelain Company". <sup>1</sup>

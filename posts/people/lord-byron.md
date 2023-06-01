@@ -3,6 +3,17 @@ title: 'Lord Byron'
 image: '/images/byron.jpg'
 imagecap: 'Portrait of Byron by Thomas Philips, c.1813'
 lifespan: '1786-1824'
+citation:
+  [
+    'Daniel James Cole, “Hierarchy and Seduction in Regency Fashion,” <i>Persuasions-On-Line 33.1</i> (2012): n.p.',
+    'Norman Page ed. <i>Byron: Interviews and Recollections</i> (London: Macmillan, 1985), 80-82.',
+    'D.S. Neff, “Bitches, Mollies, and Tommies: Byron, Masculinity, and the History of Sexualities,” <i>Journal of the History of Sexuality</i> 11.3 (2000): 396.',
+    '<i>Byron’s Letters and Journals,</i> ed. Leslie A. Marchand (Cambridge: Harvard University Press, 1973-82). All quotations from Byron’s letters and journals will hereafter as BLJ.',
+    'In Greek mythology, Leander loved Hero—the priestess of Aphrodite, and would swim the Hellespont to be with her at night daily. The forbidden love was discovered and the lovebirds both died later.',
+    'Teresa Guiccioli, <i>Lord Byron’s Life in Italy</i>, trans. Michael Rees, ed. Peter Cochran (Newark: University of Delaware Press, 2005), 9.',
+    'Neff, “Bitches, Mollies, and Tommies: Byron, Masculinity, and the History of Sexualities,” 438.',
+  ]
+bib: []
 ---
 
 <!-- @format -->
@@ -11,13 +22,13 @@ Byron was known today for his uncommon beauty and his polysexuality. In his twen
 
 ## _“anti-fashion fashion icon.”_
 
-Byron is considered by some to be an “anti-fashion fashion icon.” Beau Brummell stiffened his neckclothes, but Byron wore “unstarched and undone shirts” to set a “standard for casual masculinity that in its disheveled style served as a prototype for later Bohemians.” 1 Stendhal once met Byron in Milan in 1816, and gave this comment: “I shall never forget” the “divine expression of his look; it was the serene look of genius and power.” 2 However, in a letter dated December 10, 1822 to John Murray, Lord Byron declared that he had lived in “three or four” different worlds during his thirty-four years on earth. 3
+Byron is considered by some to be an “anti-fashion fashion icon.” Beau Brummell stiffened his neckclothes, but Byron wore “unstarched and undone shirts” to set a “standard for casual masculinity that in its disheveled style served as a prototype for later Bohemians.”<sup>1</sup> Stendhal once met Byron in Milan in 1816, and gave this comment: “I shall never forget” the “divine expression of his look; it was the serene look of genius and power.”<sup>2</sup> However, in a letter dated December 10, 1822 to John Murray, Lord Byron declared that he had lived in “three or four” different worlds during his thirty-four years on earth.<sup>3</sup>
 
-George Gordon Byron, 6th Baron Byron, (1788-1824) was a British Romantic poet, reviewer, and satirist. The son of the handsome Captain John Byron and his second wife Catherine Gordon, a Scottish heiress, Byron was noted for his lameness due to his birth defect, a clubfoot. He was poor before the age of 10, but he inherited the title and fortune of his great-uncle William, the 5 th Baron Byron in 1798. As a result, Byron was sent to Harrow (1801-1805) and met the sensuous Lord Grey de Ruthyn. Regardless of what happened, Byron told his half-sister Augusta Byron many years later: “I am not reconciled to Lord Grey, and I never will” (BLJ 1:46). 4 In 1803 he fell in love with but was rejected by his already engaged cousin, Mary Chaworth. He left for Cambridge in 1805 and developed homophiliac attachments to John Edelston and Robert Rushton. In 1809 Byron took his seat in the House of Lords.
+George Gordon Byron, 6th Baron Byron, (1788-1824) was a British Romantic poet, reviewer, and satirist. The son of the handsome Captain John Byron and his second wife Catherine Gordon, a Scottish heiress, Byron was noted for his lameness due to his birth defect, a clubfoot. He was poor before the age of 10, but he inherited the title and fortune of his great-uncle William, the 5 th Baron Byron in 1798. As a result, Byron was sent to Harrow (1801-1805) and met the sensuous Lord Grey de Ruthyn. Regardless of what happened, Byron told his half-sister Augusta Byron many years later: “I am not reconciled to Lord Grey, and I never will” (BLJ 1:46).<sup>4</sup> In 1803 he fell in love with but was rejected by his already engaged cousin, Mary Chaworth. He left for Cambridge in 1805 and developed homophiliac attachments to John Edelston and Robert Rushton. In 1809 Byron took his seat in the House of Lords.
 
 ## Byron’s Grand Tour (1809-1811)
 
-Byron’s Grand Tour (1809-1811) with his lifelong friend, John Cam Hobhouse, led him to Portugal, Spain, Malta, Greece, Albania, and Turkey. In Greece he swam the Hellespont to mimic Leander. 5 Byron was drawn to Spanish, Maltese, Greek women, but he found the grandsons of Ali Pasha particularly fascinating: “They are totally unlike our lads, have painted complexions like rouged dowagers, large black eyes" features perfectly regular. They are the prettiest little animals I ever saw”(BLJ 1:231). Child Harold’s Pilgrimage was published in 1812 and greatly enhanced the poet’s popularity. Byron’s famous response was this: “I awoke one morning and found myself famous.”
+Byron’s Grand Tour (1809-1811) with his lifelong friend, John Cam Hobhouse, led him to Portugal, Spain, Malta, Greece, Albania, and Turkey. In Greece he swam the Hellespont to mimic Leander.<sup>5</sup> Byron was drawn to Spanish, Maltese, Greek women, but he found the grandsons of Ali Pasha particularly fascinating: “They are totally unlike our lads, have painted complexions like rouged dowagers, large black eyes" features perfectly regular. They are the prettiest little animals I ever saw”(BLJ 1:231). Child Harold’s Pilgrimage was published in 1812 and greatly enhanced the poet’s popularity. Byron’s famous response was this: “I awoke one morning and found myself famous.”
 
 ## Polysexuality
 
@@ -29,9 +40,9 @@ In Italy, Byron loved his landlord’s wife Marianna Segati but always preferred
 
 ## Byron’s Decline
 
-Byron looked old and fat in 1818 but this soon changed because of the 19 year old Countess Teresa Gamba Guiccioli, the wife of an elderly but powerful diplomat Conte Alessandro Guiccioli. Byron was also known for being her gentleman –in-waiting. In a letter dated 1819, Byron made this claim: “You sometimes tell me I have been your first real love—and I assure that you shall be my last Passion. I may well hope not to fall in love again, now that everything has become indifferent to me. Before I knew you—I felt an interest in many women, but never in one only. Now I love you, there is no other woman in the world for me.” 6 They stayed together until 1823.
+Byron looked old and fat in 1818 but this soon changed because of the 19 year old Countess Teresa Gamba Guiccioli, the wife of an elderly but powerful diplomat Conte Alessandro Guiccioli. Byron was also known for being her gentleman –in-waiting. In a letter dated 1819, Byron made this claim: “You sometimes tell me I have been your first real love—and I assure that you shall be my last Passion. I may well hope not to fall in love again, now that everything has become indifferent to me. Before I knew you—I felt an interest in many women, but never in one only. Now I love you, there is no other woman in the world for me.”<sup>6</sup> They stayed together until 1823.
 
-Byron journeyed to Greece to fight for the country’s independence from Turkish rule in 1823. Leigh Hunt gave an unflattering picture of a queer Byron in the Levant: “the Grand Signior is said to have taken him for a woman in disguise,” with hair "oiled and trimmed with all the anxiety of a Sardanapalus" and “delicate white hand…. holding a handkerchief, upon which his jeweled fingers lay embedded.” 7 Byron succumbed to sickness and died at Missolonghi on April 19, 1824.
+Byron journeyed to Greece to fight for the country’s independence from Turkish rule in 1823. Leigh Hunt gave an unflattering picture of a queer Byron in the Levant: “the Grand Signior is said to have taken him for a woman in disguise,” with hair "oiled and trimmed with all the anxiety of a Sardanapalus" and “delicate white hand…. holding a handkerchief, upon which his jeweled fingers lay embedded.”<sup>7</sup> Byron succumbed to sickness and died at Missolonghi on April 19, 1824.
 
 ## Legacy
 
@@ -72,19 +83,3 @@ _But tell of days in goodness spent,_
 _A mind at peace with all below,_
 
 _A heart whose love is innocent!_
-
-## Citations
-
-1 Daniel James Cole, “Hierarchy and Seduction in Regency Fashion,” Persuasions-On-Line 33.1 (2012): n.p.
-
-2 Norman Page ed. Byron: Interviews and Recollections (London: Macmillan, 1985), 80-82.
-
-3 D.S. Neff, “Bitches, Mollies, and Tommies: Byron, Masculinity, and the History of Sexualities,” Journal of the History of Sexuality 11.3 (2000): 396.
-
-4 Byron's Letters and Journals, ed. Leslie A. Marchand (Cambridge: Harvard University Press, 1973-82). All quotations from Byron's letters and journals will hereafter as BLJ.
-
-5 In Greek mythology, Leander loved Hero—the priestess of Aphrodite, and would swim the Hellespont to be with her at night daily. The forbidden love was discovered and the lovebirds both died later.
-
-6 Teresa Guiccioli, Lord Byron’s Life in Italy, trans. Michael Rees, ed. Peter Cochran (Newark: University of Delaware Press, 2005), 9.
-
-7 Neff, “Bitches, Mollies, and Tommies: Byron, Masculinity, and the History of Sexualities,” 438.

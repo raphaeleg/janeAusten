@@ -1,15 +1,26 @@
+/* 
+Text: #3f3831
+BG: #f1e4d5
+Primary: #c49f7d
+Secondary: #e3cab4
+Accent: #b95e33
+*/
+
+
 html,
 body {
     padding: 0;
     margin: 0;
-    line-height: 1.6;
-    font-size: 18px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .background {
-    background-image: url("../public/images/bg.jpg");
-    background-repeat: repeat;
-    background-position: center;
+    background-color: #f1e4d5;
     width: 110vw;
     height: 110vh;
     position: fixed;
@@ -74,6 +85,7 @@ body {
 
 p {
     font-family: "Times New Roman", Times, serif;
+    color: #3f3831;
 }
 
 a {
@@ -83,12 +95,23 @@ a {
 }
 
 a:hover {
-    color: burlywood;
+    color: #c49f7d;
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+sup {
+    color: #b95e33;
+    font-weight: bolder;
+}
+
+hr {
+    width: 150px;
+    border: 1px solid #b95e33;
+    margin-left: 0;
 }
 
 /* ~~~~~~ CONTAINER ~~~~~~ */
@@ -100,6 +123,11 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 0;
+    transition: all 0.2s;
+}
+.container.active {
+    opacity:0.2;
 }
 
 .container main {
@@ -110,97 +138,137 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 /* ~~~~~~ NAV BAR ~~~~~~ */
+header {
+    position: sticky;
+    z-index: 30;
+    top: 0;
+}
 
-.nav_container {
+nav {
     display: flex;
-    flex-direction: row;
+    padding: 16px;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-evenly;
-    z-index: 100;
+    background-color: #f1e4d5;
+    /* border-bottom: #b95e33 1px solid; */
+}
+
+nav a {
+    color: #3f3831;
+    font-weight: light;
+    padding: 10px;
+}
+
+.nav__menu-bar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    cursor: pointer;
+}
+
+.nav__menu-bar div {
+    width: 40px;
+    height: 4px;
+    background-color: #b95e33;
+    border-radius: 2px;
+}
+
+.nav__menu-list {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-self: flex-end;
     position: fixed;
-    width: 100vw;
-    height: auto;
-}
-
-.navBarLinks {
-    border: 75px solid rgb(222, 184, 135);
-    /* All borders set */
-    border-top: 1;
-    /* Remove left border */
-    border-bottom: 20px solid transparent;
-    /* Right transparent */
-    height: auto;
-    /* Increase element Width */
-    width: 0;
-    /* word-wrap: break-word; */
-    color: #050202;
-    z-index: 1;
-    transform: translateY(-75px);
-    transition: 0.1s linear;
-    -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
-}
-
-.nav_item {
-    padding: 10px 0px;
+    /* flex:1; */
+    top: 50px;
+    width: 288px;
+    row-gap: 24px;
+    right: -288px;
+    padding: 24px 30px;
+    transition: all 0.2s;
+    min-height: calc(100vh - 50px);
+    background-color: #f2e3d6;
     font-variant: small-caps;
-    text-align: center;
-    width: 150px;
-    margin-left: -75px;
 }
 
-.navBarLinks:hover {
-    border-color: #050202;
-    border-top: 1;
-    border-bottom: 20px solid transparent;
-    transform: translateY(-70px);
+.nav__menu-list.active {
+    right: 0;
+    background-color: #e3cab4;
+    /* border-left: #b95e33 1px solid;     */
 }
 
-.navBarLinksActive,
-.navBarLinks:hover {
-    color: white;
+.nav__link {
+    font-size: 18px;
+    position: relative;
+    transition: all 0.2s;
 }
 
-.navBarLinksActive {
-    border-color: #050202;
-    border-top: 1;
-    border-bottom: 20px solid transparent;
-    transform: translateY(-60px);
+.nav__link:hover{
+    font-weight: bold;
 }
 
-@media (max-width: 600px) {
-    .navBarLinks {
-        border: 50px solid rgb(222, 184, 135);
-        border-top: 1;
-        border-bottom: 20px solid transparent;
-        transform: translateY(-50px);
-    }
-
-    .nav_item {
-        width: 100px;
-        margin-left: -50px;
-    }
-
-    .navBarLinks:hover {
-        transform: translateY(-45px);
-    }
-
-    .navBarLinksActive {
-        transform: translateY(-30px);
-    }
-
-    .navBarLinks:hover,
-    .navBarLinksActive {
-        border-color: #050202;
-        border-top: 1;
-        border-bottom: 20px solid transparent;
-    }
+.nav__item.active {
+    color:#b95e33;
+    border-bottom: #b95e33 2px solid;
 }
 
+.center {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #f1e4d5;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 5px;
+    background: #c49f7d;
+    width: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        padding:0 16px;
+    }
+
+    .nav__menu-bar {
+        display: none;
+    }
+
+    .nav__menu-list {
+        position: unset;
+        flex-direction: row;
+        min-height: fit-content;
+        width: fit-content;
+        column-gap: 40px;
+        align-items: center;
+    }
+
+    .nav__link::before {
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 6px;
+        bottom: -16px;
+        left: 0;
+        background-color: #f2e3d6;
+        transition: all 0.2s;
+    }
+
+    .nav__link:hover:before {
+        width: 100%;
+    }
+}
 /* ~~~~~~ FOOTER ~~~~~~ */
 
 footer {
@@ -225,4 +293,113 @@ footer a {
     footer {
         max-height: 300px;
     }
+}
+
+/* ~~~~~~ TOOLTIP ~~~~~~ */
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #3f3831;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltiptext {
+    visibility: hidden;
+    width: 30vw;
+    background-color: #c49f7d;
+    color: #3f3831;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -15vw;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+blockquote .tooltiptext {
+    width: 15vw;
+    margin-left: -7.5vw;
+}
+
+/* Tooltip arrow */
+.tooltiptext::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #c49f7d transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pChooseArticle {
+    color: #b95e33;
+    margin: 0;
+    font-weight: 700;
+}
+
+.rowStyle hr {
+    width: 30vw;
+    margin-left: 35vw;
+    border: 1px solid #c49f7d;
+    
+}
+
+figure, figure img {
+    width: 280px;
+}
+
+.fig-align-right {
+    float: right;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.fig-align-left {
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.fullFigure {
+    float: inline-start;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.fullFigure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 40vh;
+}
+
+.fullFigure figcaption {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+    width: 50%;
 }

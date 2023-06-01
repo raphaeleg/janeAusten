@@ -5,10 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/index.module.css';
 import PreviewWork from '../components/PreviewWork';
+import { useGlobalContext } from '../components/GlobalContext';
 
 export default function Home() {
+	const { navActive } = useGlobalContext();
 	return (
-		<div className='container'>
+		<div className={`container ${navActive ? 'active' : ''}`}>
 			<Head>
 				<title>The Age of Elegance</title>
 				<link rel='icon' href='/favicon.ico' />
