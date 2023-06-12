@@ -1,3 +1,6 @@
+/* ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~ SPLASH ~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~*/
 .title {
     padding: 0;
     margin: 0;
@@ -14,12 +17,22 @@
 
 .titledesc {
     padding-left: 10vw;
-    padding-top: 10vh;
+    padding-top: 5vh;
     text-align: left;
     line-height: 1.5;
     font-size: 3rem;
     font-family: AlexBrush-Regular;
     text-shadow: 0 0 5px rgba(63, 56, 49, 0.5);
+}
+
+.descriptions {
+    padding: 5vh 5vw;
+}
+
+.description {
+    padding:0;
+    margin: 0;
+    color: #c49f7d;
 }
 
 .image {
@@ -40,26 +53,100 @@
 
 
 .pageview {
-    height: 90vh;
+    min-height: 100vh;
     width: 100vw;
     overflow: hidden;
-
 }
 
-.descriptions {
-    min-height: 25vh;
-    text-align: center;
+/* ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~ FILTER ~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~*/
+
+.previewContainer {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    min-height: 65vh;
+}
+
+/* ~~~~~~ DROPDOWN ~~~~~~ */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    width: 15vw;
+    margin: 3vw;
+    text-transform: capitalize;
+}
+
+.dropbtn {
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropbtn p {
+    flex: 1;
+}
+
+.dropbtn img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+    width: 15vw;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent p:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    cursor: auto;
+}
+
+/*~~~~~~~ ARTICLES ~~~~~~ */
+
+.articles {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    column-gap: 2vw;
+    row-gap: 2vw;
     justify-content: center;
 }
 
 
 @media (max-width: 820px) {
-
+    /* ~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~ SPLASH ~~~~~~ 
+    ~~~~~~~~~~~~~~~~~~~~~*/
     .titledesc,
     .title {
         padding: 0;
+        margin: 10px 0;
         text-align: center;
         width: 100vw;
         line-height: 10vw;
@@ -79,9 +166,24 @@
         transform: translate(-50%, 0);
     }
 
+    .descriptions {
+        padding: 30px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: 90vw;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 1240px) {
+    /* ~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~ SPLASH ~~~~~~ 
+    ~~~~~~~~~~~~~~~~~~~~~*/
     .image {
         width: 50vw;
         height: 90vh;

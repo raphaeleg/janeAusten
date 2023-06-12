@@ -1,31 +1,23 @@
 {
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.3.0",
-		"@fortawesome/free-solid-svg-icons": "^6.3.0",
-		"@fortawesome/react-fontawesome": "^0.2.0",
-		"@nextui-org/react": "^1.0.0-beta.12",
-		"gray-matter": "^4.0.3",
-		"next": "latest",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"react-icons": "^4.4.0",
-		"rehype-document": "^6.1.0",
-		"rehype-format": "^4.0.1",
-		"rehype-raw": "^6.1.1",
-		"rehype-stringify": "^9.0.3",
-		"remark": "^14.0.2",
-		"remark-html": "^15.0.1",
-		"remark-parse": "^10.0.1",
-		"remark-rehype": "^10.1.0",
-		"unified": "^10.1.2"
-	},
-	"devDependencies": {
-		"gh-pages": "^4.0.0"
-	}
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "next": "^13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.17",
+    "@types/react": "^18.0.25",
+    "typescript": "^4.8.4"
+  }
 }

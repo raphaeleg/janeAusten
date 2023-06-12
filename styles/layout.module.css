@@ -1,0 +1,316 @@
+/* ~~~~~~ GLOBAL ~~~~~~ */
+.rowStyle {
+    display: flex;
+    flex-direction: row;
+}
+
+.containter {
+    justify-self: flex-start;
+}
+
+/* ~~~~~~ PORTRAIT LIST ~~~~~~ */
+
+.allPortraitsList {
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 65vh;
+}
+
+.allContent {
+    padding: 10px 10px;
+    /* max-height: 62vh; */
+    scrollbar-width: thin;
+    flex-direction: column;
+    transition: .2s ease;
+}
+
+.activePortrait {
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 65vh;
+
+    overflow: hidden;
+
+    transition: .2s ease;
+    margin: 25px;
+    /* min-width: 200px; */
+    width: 30vh;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    background-color: #e3cab4;
+    align-self: center;
+    box-shadow: rgba(196, 159, 125, 0.75) 0px 25px 50px -12px;
+}
+
+.pcaption {
+    color: #3f3831;
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.postMetaData {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+
+.postMetaData p, .postMetaData h1 {
+    margin: 0;
+}
+
+.postContentContainer {
+    padding: 0 15vw;
+}
+
+.postContentContainer p {
+    text-align: justify;
+}
+
+.postContentContainer figure {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+}
+
+.postContentContainer br {
+    float: inline-start;
+}
+
+.postContentContainer figure {
+    display: table;
+}
+
+.postContentContainer figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+@media (max-width: 1024px) {
+    
+
+    .activePortrait {
+        max-height: 30vh;
+    }
+
+    .postMetaData h1{
+        margin-top: 70px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .postMetaData,
+    .postContentContainer {
+        padding: 0px 5vw;
+    }
+
+    .pcaption {
+        margin: 0;
+    }
+
+    .allPortraitsList li p {
+        margin-top: 31vh;
+    }
+
+    .postContentContainer figure {
+        margin: 1em 0px;
+        float: inline-start;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+/* ~~~~~~ QUOTE ~~~~~~ */
+
+.postContentContainer blockquote {
+    max-width: 95%;
+    min-width: 25%;
+    margin: 50px auto;
+    font-style: italic;
+    color: #3f3831;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #c49f7d;
+    line-height: 1.6;
+    position: relative;
+    background: rgba(255, 255, 255, 0.65);
+    overflow: hidden;
+}
+
+.postContentContainer blockquote::before {
+    content: "\201C";
+    color: #c49f7d;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.postContentContainer blockquote::after {
+    content: '';
+}
+
+@media (max-width: 1024px) {
+    .postContentContainer blockquote {
+        padding: 1.2em 30px;
+        max-width: 100%;
+    }
+
+}
+
+/* ~~~~~~ CITATION SECTION ~~~~~~ */
+
+.citationContainer {
+    margin-top: 50px;
+    color: #b95e33;
+    text-align: left;
+}
+
+/* ~~~~~~ FEATURE ARTICLE ~~~~~~ */
+
+.CTA {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-height: auto;
+}
+
+.pChooseArticle {
+    text-align: center;
+    color: #b95e33;
+    margin: 0;
+    font-weight: 700;
+}
+
+.pChooseArticle,
+.CTA hr {
+    margin: 25px 0;
+}
+
+.CTA hr {
+    width: 30vw;
+    margin-top: 50px;
+    border: 1px solid #c49f7d;
+}
+
+.inactivePortraitsList {
+    width: 100vw;
+    height: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 30vh;
+    column-gap: 2vw;
+    row-gap: 4vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inactivePortraitsList::-webkit-scrollbar {
+    display: none;
+}
+
+/* iPad */
+@media (max-width: 1024px),
+(max-height: 1024px) {
+    .CTA {
+        margin: 1vh 0;  
+    }
+
+    .inactivePortraitsList {
+        min-height: 100vh;
+        height: auto;
+        grid-template-columns: 35vw 35vw 35vw;
+        grid-template-rows: 26vh;
+    }
+
+    .inactivePortraitsList li {
+        height: 24vh;
+        width: 30vw;
+    }
+
+    .inactivePortraitsList {
+        grid-template-columns: 45vw 45vw;
+        min-height: 60vh;
+        height: auto;
+    }
+}
+
+/* Smaller phones */
+@media (max-width: 539px) {
+    .inactivePortraitsList {
+        grid-template-columns: 90vw;
+    }
+
+    .inactivePortraitsList li {
+        min-height: 30vh;
+    }
+}
+
+/* short */
+@media (max-height: 720px) {
+    .inactivePortraitsList {
+        grid-template-rows: 40vh;
+    }
+    .inactivePortraitsList li {
+        min-height: 40vh;
+    }
+}
+
+/* ~~~~~~ SCROLL TO TOP BTN ~~~~~~ */
+
+.scrollTopbtn {
+    display: flex;
+    cursor: pointer;
+    background-color: #c49f7d;
+    /* border: #c49f7d solid 2px; */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 5vw;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    z-index: 1000;
+    justify-items: center;
+    align-items: center;
+    opacity: 0.7
+}
+
+.toHide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 1024px) {
+    .scrollTopbtn {
+        right:0px;
+    }
+}
+@media (min-width: 500px) {
+    .scrollTopbtn {
+        margin: 30px;
+    }
+}

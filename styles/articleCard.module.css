@@ -1,0 +1,112 @@
+/* ~~~~~~ ARTICLE CARDS ~~~~~~ */
+.articleCardsContainer {
+    width: 30vw;
+    height: 30vh;
+    max-width: 30vw;
+    max-height: 30vh;
+    /* margin: 25px; */
+    line-height: 1;
+    overflow: hidden;
+}
+
+.articleCardsContainer img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    transition: .2s ease;
+    pointer-events: none;
+    background-color: #e3cab4;
+}
+
+.articleCardsSection {
+    height: 80%;
+    z-index: 3;
+}
+
+.articleCardsText {
+    transition: ease .2s;
+    height: 41%;
+    display: block;
+}
+
+.articleCardsCat {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: Butler;
+    font-weight: 400;
+    width: 50%;
+}
+
+.articleCardsCat:hover {
+    cursor: pointer;
+    color: #b95e33
+}
+
+.articleCardsTitle {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 0.8;
+}
+
+.articleCardsDesc {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.articleCardsContainer:hover img {
+    height: 30%;
+}
+
+.articleCardsSection2 {
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 1024px),
+(max-height: 1024px) {
+    .articleCardsContainer {
+        width: 45vw;
+        max-width: 45vw;
+    }
+}
+
+/* Phones / iPad */
+@media (max-width: 539px) {
+    .articleCardsTitle {
+        line-height: 0.9rem;
+    }
+
+    .articleCardsContainer {
+        width: 90vw;
+        height: 30vh;
+        max-width: 90vw;
+        max-height: 30vh;
+        line-height: 0.9rem;
+        overflow: hidden;
+        margin: 10px 0;
+    }
+
+    .articleCardsContainer:hover img {
+        height: 60%;
+    }
+
+    .articleCardsSection2 {
+        display: none;
+    }
+}
+
+/* Short */
+@media (max-height: 720px) {
+    .articleCardsContainer {
+        height: 40vh;
+        max-height: 40vh;
+    }
+}
