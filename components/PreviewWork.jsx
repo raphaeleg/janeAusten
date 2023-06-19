@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import styles from '../styles/index.module.css';
+import layoutStyles from '../styles/layout.module.css';
 import ArticleCards from './ArticleCards';
 import { useGlobalContext } from './GlobalContext';
 
@@ -17,9 +18,6 @@ export default function PreviewWork( { allPostsData } ) {
                 setCurrentFilter( 'Filter...' );
                 setList( fullList );
                 break;
-            case 'people':
-                setCurrentFilter( 'Beautiful People' );
-                break;
             default:
                 setCurrentFilter( item );
                 break;
@@ -33,15 +31,15 @@ export default function PreviewWork( { allPostsData } ) {
                 <div className={styles.dropdownContent}>
                     <p onClick={() => changeList( 'all' )}>All</p>
                     {navigationRoutes.slice( 1 ).map( elem => (
-                        <p onClick={() => changeList( elem )}>{elem != 'people' ? elem : 'Beautiful People'}</p>
+                        <p onClick={() => changeList( elem )}>{elem}</p>
                     ) )}
                 </div>
             </div>
-            <div className={styles.articles}>
-                {list.slice( 0, 6 ).map( ( { id, desc, title, cat, image, imagecover, index } ) => (
-                    <span key={id}>
-                        <ArticleCards title={title} cat={cat} desc={desc} image={imagecover != null ? ( imagecover ) : ( image )} onClick={navigateToFunc} arg={ id } />
-                    </span>
+            <div className={layoutStyles.inactivePortraitsList}>
+                {list.slice( 0, 6 ).map( ( { id, excerpt, title, cat, image, imagecover, index } ) => (
+                    <li key={id}>
+                        <ArticleCards title={title} cat={cat} desc={excerpt} image={imagecover != null ? ( imagecover ) : ( image )} onClick={navigateToFunc} arg={ id } />
+                    </li>
                 ) )}
             </div>
         </div>

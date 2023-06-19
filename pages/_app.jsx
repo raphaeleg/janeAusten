@@ -12,7 +12,6 @@ export default function App({ Component, pageProps }) {
 				<NavBar />
 				<Component {...pageProps} />
 				<Footer />
-				{/* <div className='background'></div> */}
 			</GlobalContextProvider>
 		</>
 	);

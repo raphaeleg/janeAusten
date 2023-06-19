@@ -3,6 +3,7 @@ title: 'Wedgwood'
 image: '/images/wedgwood/Jasperware.jpg'
 imagecover: '/images/wedgwood/logo.png'
 caption: 'Wedgwood Blue Jasperware'
+excerpt: 'Wedgwood explored more on the artistic potential of clay, becoming a trendsetter brand.'
 
 cat: 'homeware'
 citation:

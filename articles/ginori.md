@@ -2,6 +2,7 @@
 title: 'Ginori'
 imagecover: '/images/ginori/logo.png'
 image: '/images/ginori/greek.png'
+excerpt: 'An authentic italian brand that became popular in Britain'
 caption: ''
 cat: 'homeware'
 

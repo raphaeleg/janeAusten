@@ -3,6 +3,7 @@ title: 'Royal Worcester'
 imagecover: '/images/RW/logo.png'
 image: '/images/RW/2010ED6908.jpg'
 caption: ''
+excerpt: 'One of the olderst English manufacturers started by a chemist imitating porcelain'
 
 cat: 'homeware'
 citation:
@@ -37,7 +38,7 @@ They experimented some more, trying to imitate a simple character's blue and whi
 ## Financial Decline
 
 Dr. Walls' death in 1776 marked the beginning of the end for Worcester productions. <sup>2</sup> Despite this, George III granted the "Royal Porcelain Works" a royal warrant. The first apprentice in Worcester, Robert Chamberlain, started his own company, Chamberlain's Factory, to carry on Worcester's traditions. This venture was quite successful, and in 1811, the Prince Regent granted it a royal warrant. <sup>3</sup>
-Chamberlains' decorative depictions of country homes and people from well-known paintings or plays, such as scenes from Shakespeare's plays <sup>3</sup> or debased Japanese style were among his best-known creations. <sup>4</sup>
+Chamberlains' decorative depictions of country homes and trendsetters from well-known paintings or plays, such as scenes from Shakespeare's plays <sup>3</sup> or debased Japanese style were among his best-known creations. <sup>4</sup>
 The original Worcester company and Chamberlain's Factory eventually merged to form Chamberlain & Company in the 1840s. They specialized in producing buttons, porcelain door decor, and old-world encaustic floor tiles for churches that were being renovated. <sup>3</sup>
 
 ## Blush Ivory Porcelain

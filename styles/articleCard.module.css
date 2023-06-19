@@ -13,7 +13,7 @@
     width: 100%;
     height: 60%;
     object-fit: cover;
-    transition: .2s ease;
+    transition: .45s ease;
     pointer-events: none;
     background-color: #e3cab4;
 }
@@ -70,8 +70,7 @@
 }
 
 /* Tablet */
-@media (max-width: 1024px),
-(max-height: 1024px) {
+@media (max-width: 1024px) {
     .articleCardsContainer {
         width: 45vw;
         max-width: 45vw;

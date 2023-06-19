@@ -9,16 +9,10 @@ const Splash = () => {
             <h1 className={styles.title}>Elegance</h1>
             <div className={styles.descriptions}>
                 <p className={styles.description}>
-                    A time capsule of history,
-                </p>
-                <p className={styles.description}>
-                    Nineteenth century Britain's mystery.
-                </p>
-                <p className={styles.description}>
-                    Culture, fashion, and trendsetters abound,
-                </p>
-                <p className={styles.description}>
-                    Indulge in learning, let your curiosity astound.
+                    This website serves as a virtual time capsule
+                    for nineteenth-century Britain.
+                    Discover popular culture,
+                    homewares, and trendsetters.
                 </p>
             </div>
             <div className={styles.image}>

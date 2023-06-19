@@ -3,6 +3,7 @@ title: 'Royal Doulton'
 imagecover: '/images/RD/logo.png'
 image: '/images/RD/jug.jpg'
 caption: 'George Tinworth, Doulton & Co. Vase with Slender Neck, Gift of Edward Judd'
+excerpt: 'Homeware for the people– from toilets to sgraffito-decorated wares.'
 
 cat: 'homeware'
 citation:

@@ -231,17 +231,9 @@
 }
 
 /* iPad */
-@media (max-width: 1024px),
-(max-height: 1024px) {
+@media (max-width: 1024px){
     .CTA {
         margin: 1vh 0;  
-    }
-
-    .inactivePortraitsList {
-        min-height: 100vh;
-        height: auto;
-        grid-template-columns: 35vw 35vw 35vw;
-        grid-template-rows: 26vh;
     }
 
     .inactivePortraitsList li {
@@ -253,6 +245,7 @@
         grid-template-columns: 45vw 45vw;
         min-height: 60vh;
         height: auto;
+        grid-template-rows: 26vh;
     }
 }
 

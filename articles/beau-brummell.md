@@ -2,8 +2,8 @@
 title: 'Beau Brummell'
 image: '/images/beauBrummell.jpg'
 caption: 'Caricature of Beau Brummell done as a print by Robert Dighton, 1805.'
-excerpt: '1778-1840'
-cat: 'people'
+excerpt: '1778-1840, The father of the Dandyism Trend'
+cat: 'trendsetters'
 citation:
   [
     'Svelte, Dita. ““Do You Call This Thing a Coat?”: Wit, the Epigram and the Detail in the Figure of the Ultimate Dandy, Beau Brummell.” <i>Fashion Theory</i>, vol. 22, no. 3, 24 Aug. 2017, pp. 255–282.',

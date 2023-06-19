@@ -1,29 +1,31 @@
 /** @format */
 
+import React, {useEffect} from 'react';
 import Head from 'next/head';
 import Splash from '../components/Splash';
 import PreviewWork from '../components/PreviewWork';
 import { useGlobalContext } from '../components/GlobalContext';
-import { getSortedPostsData } from '../lib/articles';
+import { getAllPostsMetaData } from '../lib/articles';
 
-const dir = ['articles', 'food', 'homeware', 'people', 'lifestyle'];
+const dir = ['articles', 'food', 'homeware', 'trendsetters', 'lifestyle'];
 
 export const getStaticProps = async () => {
-	const allPostsData = [];
-	let postsData = getSortedPostsData('articles');
-	for (let j = 0; j < postsData.length; j++) {
-		allPostsData.push(postsData[j]);
-	}
+	let postsData = getAllPostsMetaData('articles');
 	
 	return {
 		props: {
-			allPostsData: allPostsData,
+			allPostsData: postsData,
 		},
 	};
 };
 
 export default function Home({ allPostsData }) {
 	const { navActive } = useGlobalContext();
+
+	useEffect(() => {
+		document.getElementById('myBar').style.width = '0%';
+	},[]);
+
 	return (
 		<div className={`container ${navActive ? 'active' : ''}`}>
 			<Head>

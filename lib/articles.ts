@@ -6,9 +6,15 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeRaw from 'rehype-raw';
+import rehypeStringify from 'rehype-stringify';
+
 const postsDirectory = path.join(process.cwd(), 'articles');
 
-export function getSortedPostsData() {
+export function getAllPostsMetaData() {
 	// Get file names under /posts
 	const fileNames = readdirSync(postsDirectory);
 	const allPostsData = fileNames.map((fileName) => {
@@ -96,7 +102,7 @@ export function getRepPostsMeta() {
 	});
 	// Sort posts by date
 	let a = allPostsData.filter((art) => art.cat == 'austen');
-	let b = allPostsData.filter((art) => art.cat == 'people');
+	let b = allPostsData.filter((art) => art.cat == 'trendsetters');
 	let c = allPostsData.filter((art) => art.cat == 'homeware');
 	let d = allPostsData.filter((art) => art.cat == 'food');
 	let e = allPostsData.filter((art) => art.cat == 'lifestyle');

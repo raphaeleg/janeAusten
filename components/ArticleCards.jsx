@@ -24,7 +24,7 @@ const ArticleCards = ( { title, cat, image, desc, onClick, arg } ) => {
                 </span>
                 <div className={styles.articleCardsSection2}>
                     <div className="btn" onClick={() => onClick( arg )}>
-                        Read More
+                        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/read.png" alt="read"/> Read More
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 const GlobalContext = createContext();
 export const GlobalContextProvider = ( { children } ) => {
     const router = useRouter();
-    const navigationRoutes = ['home', 'austen', 'people', 'homeware', 'food', 'lifestyle'];
+    const navigationRoutes = ['home', 'austen', 'trendsetters', 'homeware', 'food', 'lifestyle'];
     const [navActive, setNavActive] = useState( null );
     const [activeNavIdx, setActiveNavIdx] = useState( 0 );
 

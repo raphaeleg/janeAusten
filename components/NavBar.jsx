@@ -1,21 +1,8 @@
 /** @format */
 
 import Link from "next/link";
-import React from "react";
+import React, {useEffect} from "react";
 import { useGlobalContext } from './GlobalContext';
-
-export const NavItem = ( { text, href, active } ) => {
-	return (
-		<Link legacyBehavior href={href == '/home' ? '/' : href}>
-			<p
-				className={`nav__item ${active ? "active" : ""}`}
-			>
-				{text}
-			</p>
-		</Link>
-	);
-};
-
 
 const NavBar = () => {
 	const { navActive, setNavActive, activeNavIdx, setActiveNavIdx, navigationRoutes } = useGlobalContext();
@@ -39,8 +26,15 @@ const NavBar = () => {
 								setNavActive( false );
 							}}
 							key={singleRoute}
+							className={`${singleRoute==='home' ? "nav_home" : ""}`}
 						>
-							<NavItem active={activeNavIdx === id} text={singleRoute === 'people' ? 'beautiful people' : singleRoute} href={`/${singleRoute}`} />
+							<Link legacyBehavior href={singleRoute == 'home' ? '/' : `/${singleRoute}`}>
+								<p
+									className={`nav__item ${activeNavIdx == id && "active"}`}
+								>
+									{singleRoute}
+								</p>
+							</Link>
 						</div>
 					) )}
 				</div>

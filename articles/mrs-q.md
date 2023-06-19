@@ -2,8 +2,8 @@
 title: 'Mrs. Q'
 image: '/images/mrsqThumbnail.png'
 caption: 'Blake, William. “Portrait of Mrs. Q (Mrs. Harriet Quentin),” The Morgan Library & Museum, 30 Dec. 2013.'
-excerpt: '---1853'
-cat: 'people'
+excerpt: '---1853, Mrs. Q inspired Austen for the character Jane Bennet in Pride and Prejudice'
+cat: 'trendsetters'
 citation:
   [
     'Eglantine, Edward. <i>Memoirs of the Life of the Celebrated Mrs. Q------.</i> 1822. Benbow, Printer and Publisher, at the Byron’s Head, Castle Street, Leicester Square, W. Benbow, 2012.',

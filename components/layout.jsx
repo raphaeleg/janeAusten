@@ -6,16 +6,16 @@ import styles from '../styles/layout.module.css';
 import Link from 'next/link';
 import { useGlobalContext } from './GlobalContext';
 import ArticleCards from './ArticleCards';
+import { set } from 'date-fns';
 
 export const siteTitle = 'The Age of Elegance';
 
 export default function Layout({ children, id, cat, metaDatas}) {
 
 	const {
-		navActive,
+		setActiveNavIdx, 
+		navigationRoutes,
 		isBrowser,
-		currentPostID,
-		setCurrentPostID,
 		scrollPos,
 		setScrollPos,
 		navigateToFunc
@@ -35,6 +35,10 @@ export default function Layout({ children, id, cat, metaDatas}) {
 	}
 
 	useEffect(()=> {
+		// Set nav
+		let id = navigationRoutes.indexOf(cat);
+		setActiveNavIdx(id);
+		// Set featured article
 		let art3 = metaDatas.filter((art) => art.id != id);
 		setFeaturedArticle(art3.slice(0,3));
 	},[])

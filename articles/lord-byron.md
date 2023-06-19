@@ -2,8 +2,8 @@
 title: 'Lord Byron'
 image: '/images/byron.jpg'
 caption: 'Portrait of Byron by Thomas Philips, c.1813'
-excerpt: '1786-1824'
-cat: 'people'
+excerpt: '1786-1824, The "anti-fashion fashion icon"'
+cat: 'trendsetters'
 citation:
   [
     'Daniel James Cole, “Hierarchy and Seduction in Regency Fashion,” <i>Persuasions-On-Line 33.1</i> (2012): n.p.',

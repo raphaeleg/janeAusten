@@ -21,6 +21,7 @@ export default function Post({
 		title: string;
 		cat: string;
 		image: string;
+		excerpt: string;
 		caption: string;
 		contentHtml: string;
 		bib: string[];

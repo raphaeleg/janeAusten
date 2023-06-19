@@ -3,6 +3,7 @@ title: 'Spode'
 imagecover: '/images/spode/logo.png'
 image: '/images/spode/1645.jpg'
 caption: "Spode's famous 'Italien' pattern"
+excerpt: 'Spode developed underglaze blue transfer printing and standardized the recipe for bone china'
 
 cat: 'homeware'
 citation:

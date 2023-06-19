@@ -16,7 +16,19 @@ export default function Austen({
 	metaDatas: [{ cat: 0; id: 0; image: 0; imagecover: 0; title: 0; excerpt: 0 }];
 	repPosts: [{ cat: 0; id: 0; image: 0; imagecover: 0; title: 0; excerpt: 0 }];
 }) {
-	const { navigateToFunc } = useGlobalContext();
+	const { navigateToFunc, navigationRoutes, activeNavIdx, setActiveNavIdx } =
+		useGlobalContext();
+
+	useEffect(() => {
+		// Set nav
+		let id = navigationRoutes.indexOf(metaDatas[0].cat);
+		setActiveNavIdx(id);
+
+		// Make sure progress bar is 0
+		let temp = document.getElementById('myBar');
+		temp ? (temp.style.width = '0%') : '';
+	}, []);
+
 	return (
 		<div className='container'>
 			<div className={styles.titleContainer}>
@@ -66,7 +78,7 @@ export default function Austen({
 export const getStaticPaths: GetStaticPaths = async () => {
 	const paths = [
 		{ params: { id: 'austen' } },
-		{ params: { id: 'people' } },
+		{ params: { id: 'trendsetters' } },
 		{ params: { id: 'homeware' } },
 		{ params: { id: 'food' } },
 		{ params: { id: 'lifestyle' } },

@@ -2,8 +2,8 @@
 title: 'Emma Hamilton'
 image: '/images/emmaHamilton.jpg'
 caption: '	George Romney 1734–1802 Emma Hart as Circe c.1782 Tate Archive, Photo © Tate C-BY-NC-ND 3.0 (Unported)'
-excerpt: '1765-1815'
-cat: 'people'
+excerpt: '1765-1815, The alluring model of many artworks and mistress to Lord Nelson'
+cat: 'trendsetters'
 citation:
   [
     'Williams, Kate, and Quentin Colville. “Emma Hamilton: Seduction and Celebrity.” <i>CentAUR: Central Archive at the University of Reading</i>, 3 Nov. 2016, p. 288.',

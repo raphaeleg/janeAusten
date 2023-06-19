@@ -3,6 +3,7 @@ title: 'Royal Crown Derby'
 image: '/images/RCD/marks.jpg'
 imagecover: '/images/RCD/logo.png'
 caption: 'Royal Crown Derby Marks'
+excerpt: 'The oldest English porcelain producers known for their exotic motifs'
 
 cat: 'homeware'
 citation:
