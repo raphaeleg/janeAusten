@@ -100,6 +100,9 @@
     .articleCardsSection2 {
         display: none;
     }
+    .articleCardsContainer img {
+        height: 60%;
+    }
 }
 
 /* Short */
