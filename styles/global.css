@@ -110,7 +110,8 @@ header {
 
 nav {
   display: flex;
-  padding: 16px;
+  margin: 0;
+  padding: 12px;
   justify-content: flex-end;
   align-items: center;
   background-color: rgba(0,0,0,0);
@@ -120,8 +121,8 @@ nav {
 nav p {
   color: #3f3831;
   font-weight: light;
-  padding: 10px;
-  margin:0;
+  /* padding: 10px; */
+  margin: 0;
   text-decoration: none;
   transition: 0.2s ease;
   cursor: pointer;
@@ -292,7 +293,7 @@ footer a {
 
 .arrdown {
   bottom: 5vw;
-  left: 28vw;
+  left: 44vw;
   position: absolute;
 }
 

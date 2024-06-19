@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
 	return (
 		<div className={`container ${navActive ? 'active' : ''}`}>
 			<Head>
-				<title>The Age of Elegance</title>
+				<title>Jane Austen and The Age of Elegance</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
